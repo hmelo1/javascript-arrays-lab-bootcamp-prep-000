@@ -22,7 +22,7 @@ function prependKitten(name){
   return [name, ...kittens]
 }
 function removeLastKitten(){
-
+  return kittens.slice(kittens.length -1)
 }
 function removeFirstKitten(){
   return kittens.slice(1)
